@@ -4,7 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 const educationContent = [
   {
     passingYear: "2020-2021",
-    degree: "Diploma Candidate in Web Development",
+    degree: "Diploma, Web Development",
     instituteName: "BrainStation, Ontario, CA",
   },
   {
@@ -14,7 +14,7 @@ const educationContent = [
   },
   {
     passingYear: "2016-2017",
-    degree: "Post-Graduate in Marketing",
+    degree: "Post-Graduate, Marketing",
     instituteName: "Humber College, Ontario, CA",
   },
   {
@@ -35,11 +35,7 @@ const skillsContent = [
     skillPercent: "70",
   },
   {
-    name: "Web Application Design",
-    skillPercent: "90",
-  },
-  {
-    name: "UI/UX",
+    name: "UI/UX Design",
     skillPercent: "70",
   },
   {
@@ -51,6 +47,10 @@ const skillsContent = [
     skillPercent: "65",
   },
   {
+    name: "CMS",
+    skillPercent: "70",
+  },
+  {
     name: "Digital Marketing",
     skillPercent: "60",
   },
@@ -58,54 +58,49 @@ const skillsContent = [
 
 const awardContent = [
   {
-    awardYear: "2020",
-    degree: "Best Developer",
-    instituteName: "University Of Melbourne, NA",
+    awardYear: "2022",
+    degree: "Winner Team",
+    instituteName: "WHOOP Industry Hackathon",
   },
   {
-    awardYear: "2019",
-    degree: "Best Writter",
-    instituteName: "Online Typodev Soluation Ltd.",
-  },
-  {
-    awardYear: "2007",
-    degree: "Best Freelancer ",
-    instituteName: "Fiver & Upwork Level 2 & Top Rated",
+    awardYear: "2022",
+    degree: "Top 5% in Web Dev",
+    instituteName: "BrainStation",
   },
 ];
 const experienceContent = [
   {
-    designation: "Sr. Software Tester",
+    designation: "Front-end Developer",
     jobType: "Full Time | Remote",
-    year: "2020 - Present",
-    compnayName: "Google Inc.",
+    year: "2022 - Present",
+    compnayName: "Birdseye Global AI Marketing",
     descriptions:
       "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
     animationDealy: "",
   },
   {
-    designation: "Sr. Graphic Designer",
-    jobType: "Part Time | Office",
-    year: "2018 - 2019",
-    compnayName: "Avada Theme.",
+    designation: "Marketing Director",
+    jobType: "Full Time | Remote",
+    year: "2019 - 2021",
+    compnayName: "Touchbox Art Studio",
     descriptions:
       "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
     animationDealy: "200",
   },
   {
-    designation: "Cr. Web Developer",
+    designation: "Digital Marketing Specialist",
     jobType: "Full Time | InHouse",
-    year: "2016 - 2017",
-    compnayName: "ib-themes ltd.",
+    year: "2017-2018",
+    compnayName: "Centry21 Kennect Realty",
     descriptions:
       "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
     animationDealy: "",
   },
   {
-    designation: "Jr. Web Developer",
-    jobType: "Full Time | Remote",
-    year: "2014 - 2015",
-    compnayName: "Creative Gigs.",
+    designation: "Marketing Specialist",
+    jobType: "Full Time | InHouse",
+    year: "2016-2017",
+    compnayName: "Lovaee Media Group",
     descriptions:
       "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
     animationDealy: "200",
