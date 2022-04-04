@@ -52,11 +52,10 @@ const HomeLightAnimation = () => {
       <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Services</span>
-            <h2>I provide wide range of digital services</h2>
+            <span>Tech Skills</span>
+            <h2>I used a wide range of tech skills</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              to build the web applications and bring innovative solutions to clients.
             </p>
           </div>
           {/* End beny_tm_title */}
