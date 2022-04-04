@@ -40,10 +40,6 @@ const HomeLightAnimation = () => {
           <div className="beny_tm_title_holder">
             <span>About Me</span>
             <h2>About Me</h2>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p> */}
           </div>
           {/* End .beny_tm_title */}
           <About />

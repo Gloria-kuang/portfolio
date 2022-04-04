@@ -4,41 +4,55 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 const educationContent = [
   {
     passingYear: "2020-2021",
-    degree: "Ph.D in Horriblensess ",
-    instituteName: "Harvard University, Cambridge, MA",
+    degree: "Diploma Candidate in Web Development",
+    instituteName: "BrainStation, Ontario, CA",
   },
   {
-    passingYear: "2018-2019",
-    degree: "Computer Science",
-    instituteName: "Imperialize Technical Institute",
+    passingYear: "2020",
+    degree: "UI/UX Specialization",
+    instituteName: "California Institute of the Arts, California, US",
   },
   {
-    passingYear: "2016-2018",
-    degree: "Graphic Designer",
-    instituteName: "Web Graphy, Los Angeles, CA",
+    passingYear: "2016-2017",
+    degree: "Post-Graduate in Marketing",
+    instituteName: "Humber College, Ontario, CA",
+  },
+  {
+    passingYear: "2008-2012",
+    degree: "Bachelor Degree, Finance",
+    instituteName: "Sun Yat-sen University, Guangdong, CN",
   },
 ];
 
 const skillsContent = [
+  
   {
-    name: "Web Design",
-    skillPercent: "85",
+    name: "Front-End Development",
+    skillPercent: "95",
   },
   {
-    name: "Mobile App",
-    skillPercent: "55",
+    name: "Back-End Development",
+    skillPercent: "70",
   },
   {
-    name: "Illustrator",
+    name: "Web Application Design",
+    skillPercent: "90",
+  },
+  {
+    name: "UI/UX",
+    skillPercent: "70",
+  },
+  {
+    name: "Graphic Design",
+    skillPercent: "75",
+  },
+  {
+    name: "SEO",
     skillPercent: "65",
   },
   {
-    name: "Photoshop",
-    skillPercent: "72",
-  },
-  {
-    name: "Motion Graphy",
-    skillPercent: "80",
+    name: "Digital Marketing",
+    skillPercent: "60",
   },
 ];
 
