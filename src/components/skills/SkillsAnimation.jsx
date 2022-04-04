@@ -75,7 +75,7 @@ const experienceContent = [
     year: "2022 - Present",
     compnayName: "Birdseye Global AI Marketing",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Designed new features and components for web applications using Javascript, React JS, HTML and CSS. Re-designed version 3 User Interfaces  based on updated Figma mockup. Work closely with the back-end development team to implement updates and connect to APIs.",
     animationDealy: "",
   },
   {
@@ -84,7 +84,7 @@ const experienceContent = [
     year: "2019 - 2021",
     compnayName: "Touchbox Art Studio",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Led team of three to execute marketing promotion plans. Improved user experience by re-designing online products.",
     animationDealy: "200",
   },
   {
@@ -93,7 +93,7 @@ const experienceContent = [
     year: "2017-2018",
     compnayName: "Centry21 Kennect Realty",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Used Wordpress to design the company website and manage Content Management Systems. Improved SEO and digital media buy like Facebook Ads and Google Ads to boost up leads by 10% using strong problem  solving skills.",
     animationDealy: "",
   },
   {
@@ -102,7 +102,7 @@ const experienceContent = [
     year: "2016-2017",
     compnayName: "Lovaee Media Group",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Designed print and digital marketing materials and built strong graphic design skills. Worked in a highly collaborative environment and oversaw 10+ events including fundraising events, music concerts etc.",
     animationDealy: "200",
   },
 ];
