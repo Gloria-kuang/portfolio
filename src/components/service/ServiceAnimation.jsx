@@ -71,7 +71,30 @@ const ServiceAnimation = () => {
             </div>
           </div>
         </li>
-        
+        <li>
+          <div
+            className="list_inner"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
+            <img className="svg" src="img/svg/redux.svg" alt="" />
+            <div className="service_title">
+              <h3>Redux</h3>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="list_inner"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
+            <img className="svg" src="img/svg/webpack.svg" alt="" />
+            <div className="service_title">
+              <h3>WebPack</h3>
+            </div>
+          </div>
+        </li>
         <li>
           <div
             className="list_inner"
@@ -102,9 +125,33 @@ const ServiceAnimation = () => {
             data-aos="fade-right"
             data-aos-duration="1200"
           >
+            <img className="svg" src="img/svg/git.svg" alt="" />
+            <div className="service_title">
+              <h3>Git</h3>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="list_inner"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
             <img className="svg" src="img/svg/figma.svg" alt="" />
             <div className="service_title">
               <h3>Figma</h3>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="list_inner"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
+            <img className="svg" src="img/svg/wordpress.svg" alt="" />
+            <div className="service_title">
+              <h3>Wordpress</h3>
             </div>
           </div>
         </li>

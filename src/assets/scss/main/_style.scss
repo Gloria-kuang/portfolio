@@ -2039,7 +2039,7 @@ body.dark .loader_line:after {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  height: 383px;
+  height: 425px;
   cursor: pointer;
 }
 .beny_tm_news ul li .image img {
@@ -2060,7 +2060,7 @@ body.dark .loader_line:after {
   transition: all 1s cubic-bezier(0, 0, 0.1, 1);
 }
 .beny_tm_news ul li .image:hover .main {
-  transform: scale(1.1) rotate(3deg);
+  transform: scale(1.1);
 }
 .beny_tm_news ul li .details {
   width: 100%;

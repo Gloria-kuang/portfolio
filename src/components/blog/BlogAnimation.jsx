@@ -31,7 +31,7 @@ const BlogAnimation = () => {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/1.jpg"
+                      process.env.PUBLIC_URL + "img/portfolio/paws-reunite.png"
                     })`,
                   }}
                 ></div>
@@ -40,10 +40,10 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="#">Travel Landing</a>
+                  Jan 2022<a href="#">Pet Finding Web App</a>
                 </span>
                 <h3 className="title" onClick={toggleModalOne}>
-                  Dostie Memorie
+                  Paws Reunite
                 </h3>
               </div>
               {/* End details */}
@@ -80,10 +80,10 @@ const BlogAnimation = () => {
 
                       <div className="details">
                         <span>
-                          April 07,2021 <a href="#">Travel Landing</a>
+                          Jan,2022 <a href="#">Brainstation Capstone Project</a>
                         </span>
                         <h3 className="title" onClick={toggleModalOne}>
-                          Dostie Memorie
+                          Paws Reunite
                         </h3>
                       </div>
                       {/* End details */}
@@ -91,47 +91,18 @@ const BlogAnimation = () => {
                       <div className="main_content">
                         <div className="descriptions">
                           <p className="bigger">
-                            Just because we can't get out and about like we
-                            normally would, doesn’t mean we have to stop taking
-                            pictures. There’s still plenty you can do, provided
-                            you're prepared to use some imagination. Here are a
-                            few ideas to keep you shooting until normal life
-                            resumes.
-                          </p>
-                          <p>
-                            Most photographers love to shoot the unusual, and
-                            you don’t get much more unusual than These
-                            Unprecedented Times. Right now everything counts as
-                            out of the ordinary. There are a number of
-                            remarkable things about these lockdown days that are
-                            worth photographing now so we can remember them when
-                            it is all over.
-                          </p>
-                          <p>
-                            Streets empty that are usually busy are remarkable
-                            and can evoke the sense of historical pictures from
-                            before the invention of the motorcar. Other things
-                            that are different at the moment will be queues to
-                            get into stores and the lines marked out on the
-                            floor to show how far apart we should be.
+                          Paws Reunite is a web app aiming to make happy reunions for pets owners and their lost furry friends. It provides a platform where pets owners can post lost/found pets, search for pets based on location and share posts to social media.
                           </p>
                           <div className="quotebox">
                             <p>
-                              Most photographers find it hard to see interesting
-                              pictures in places in which they are most
-                              familiar. A trip somewhere new seems always
-                              exactly what our photography needed, as shooting
-                              away from home consistently inspires us to new
-                              artistic heights.
+                              Tech Stack
                             </p>
                           </div>
                           <p>
-                            Pretend everything is new and that you haven’t seen
-                            it before, and then you will be free to notice the
-                            leading lines, the places where one edge meets
-                            another in delightful geometric harmony, and how the
-                            ordinary things in the kitchen are transformed when
-                            the light is on or off.
+                            JavaScript, React JS, HTML5, CSS3, SASS, Node.js, React Boostrap
+                          </p>
+                          <p>
+                            React Hooks, Firebase, Google Map API, Google Geocoding API
                           </p>
                           <p>
                             The trick here is to look slowly, and then look
@@ -144,8 +115,8 @@ const BlogAnimation = () => {
                         </div>
                         {/* End description */}
                         <div className="news_share ">
-                          <span>Share:</span>
-                          <Social />
+                          <span>Link:</span>
+                          <p>https://paws-reunite.web.app/</p>
                         </div>
                         {/* End news share */}
                       </div>
@@ -172,7 +143,7 @@ const BlogAnimation = () => {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/news/2.jpg"
+                      process.env.PUBLIC_URL + "img/portfolio/birdseye-web-1.png"
                     })`,
                   }}
                 ></div>
@@ -181,10 +152,10 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  April 07,2021 <a href="#">Inspiration</a>
+                  Feb,2022 <a href="#">Birdseye AI Marketing</a>
                 </span>
                 <h3 className="title" onClick={toggleModalTwo}>
-                  Chul Urina
+                  Birdseye Global Website
                 </h3>
               </div>
               {/* End details */}
