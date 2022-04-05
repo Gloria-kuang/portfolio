@@ -65,7 +65,7 @@ const HomeLightAnimation = () => {
       {/* /SERVICES */}
 
       {/* PORTFOLIO */}
-      <div className="beny_tm_portfolio" id="portfolio">
+      {/* <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Portfolio</span>
@@ -74,11 +74,11 @@ const HomeLightAnimation = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
             </p>
-          </div>
+          </div> */}
           {/* End beny_tm_title */}
-          <Portfolio />
+          {/* <Portfolio />
         </div>
-      </div>
+      </div> */}
       {/* /PORTFOLIO */}
 
       {/* TESTIMONIALS */}
@@ -109,12 +109,8 @@ const HomeLightAnimation = () => {
       <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Blogs</span>
-            <h2>Recent News</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p>
+            <span>Portfolio</span>
+            <h2>My Portfolio</h2>
           </div>
           {/* End beny_tm_title */}
           <Blog />
