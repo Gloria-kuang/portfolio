@@ -437,6 +437,192 @@ const BlogAnimation = () => {
             </div>
             {/* END LIST INNER */}
           </li>
+
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="300"
+          >
+            <div className="list_inner">
+              <div className="image" onClick={toggleModalFour}>
+                <img src="/img/portfolio/marvel.png" alt="thumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/marvel.png"
+                      })`,
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+
+              <div className="details">
+                <span>
+                  Dec, 2021 <a href="#">Brainstation Hackathon Project</a>
+                </span>
+                <h3 className="title" onClick={toggleModalFour}>
+                  Marvel Guess Who Game
+                </h3>
+              </div>
+              {/* End details */}
+
+              {/* Start Modal */}
+              <Modal
+                isOpen={isOpen4}
+                onRequestClose={toggleModalFour}
+                contentLabel="My dialog"
+                className="custom-modal"
+                overlayClassName="custom-overlay"
+                closeTimeoutMS={500}
+              >
+                <div className="beny_tm_modalbox_news">
+                  <button className="close-modal" onClick={toggleModalFour}>
+                    <img src="/img/svg/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* END CLOSE MODAL */}
+                  <div className="box_inner">
+                    <div className="description_wrap scrollable">
+                      <div className="image">
+                        <img src="/img/portfolio/marvel-1.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/marvel-1.png"
+                              })`,
+                          }}
+                        ></div>
+                      </div>
+                      {/* END IMAGE */}
+                      <div className="details">
+                        <span>
+                         Dec, 2021 <a href="#">Brainstation Hackathon Project</a>
+                        </span>
+                        <h3 className="title">Marvel Guess Who Game</h3>
+                      </div>
+                      {/* End details */}
+                      <div className="main_content">
+                        <div className="descriptions">
+                          <p className="bigger">
+                           In this 24h Brainstation Hackathon, my partner and I created a fun and interative Marvel Guess Who Game. We access the info of 2000+ Marvel Characters in the Marvel API and put together a guess-who card game!
+                          </p>
+                          <div className="quotebox">
+                            <p>
+                              Tech Stack
+                            </p>
+                          </div>
+                          <p>
+                          JavaScript, React JS, HTML5, CSS3, SASS, Node JS, Postman
+                          </p>
+                          <div className="quotebox">
+                            <p>
+                              Some Screenshots
+                            </p>
+                          </div>
+                          <img src="/img/portfolio/marvel-2.png" alt="landing"/>
+                          <img src="/img/portfolio/marvel-3.png" alt="landing"/>
+                        </div>
+                        {/* END DESCRIPTION */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Modal>
+            </div>
+            {/* END LIST INNER */}
+          </li>
+
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="300"
+          >
+            <div className="list_inner">
+              <div className="image" onClick={toggleModalFour}>
+                <img src="/img/portfolio/menu.png" alt="thumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/menu.png"
+                      })`,
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+
+              <div className="details">
+                <span>
+                  Dec, 2021 <a href="#">Brainstation Holiday Theme Project</a>
+                </span>
+                <h3 className="title" onClick={toggleModalFour}>
+                  Holiday Fest
+                </h3>
+              </div>
+              {/* End details */}
+
+              {/* Start Modal */}
+              <Modal
+                isOpen={isOpen4}
+                onRequestClose={toggleModalFour}
+                contentLabel="My dialog"
+                className="custom-modal"
+                overlayClassName="custom-overlay"
+                closeTimeoutMS={500}
+              >
+                <div className="beny_tm_modalbox_news">
+                  <button className="close-modal" onClick={toggleModalFour}>
+                    <img src="/img/svg/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* END CLOSE MODAL */}
+                  <div className="box_inner">
+                    <div className="description_wrap scrollable">
+                      <div className="image">
+                        <img src="/img/portfolio/menu-0.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/menu-0.png"
+                              })`,
+                          }}
+                        ></div>
+                      </div>
+                      {/* END IMAGE */}
+                      <div className="details">
+                        <span>
+                         Dec, 2021 <a href="#">Brainstation Holiday Theme Project</a>
+                        </span>
+                        <h3 className="title">Holiday Fest - Online Dinner Menu Generator</h3>
+                      </div>
+                      {/* End details */}
+                      <div className="main_content">
+                        <div className="descriptions">
+                          <p className="bigger">
+                          In this Holiday theme project, I created a holiday menu generator. This handy menu generator will help you plan your holiday menu. You can customize your menu by filtering by ingredients or countries, or you can get a list of random menus! 
+                          </p>
+                          <div className="quotebox">
+                            <p>
+                              Tech Stack
+                            </p>
+                          </div>
+                          <p>
+                          JavaScript, React JS, HTML5, CSS3, SASS, Node JS, Postman
+                          </p>
+                          <div className="quotebox">
+                            <p>
+                              Some Screenshots
+                            </p>
+                          </div>
+                          <img src="/img/portfolio/menu-1.png" alt="landing"/>
+                          <img src="/img/portfolio/menu-2.png" alt="landing"/>
+                        </div>
+                        {/* END DESCRIPTION */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Modal>
+            </div>
+            {/* END LIST INNER */}
+          </li>
         </ul>
       </div>
     </>
