@@ -8,6 +8,7 @@ const BlogAnimation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
+  const [isOpen4, setIsOpen4] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -17,6 +18,9 @@ const BlogAnimation = () => {
   }
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
+  }
+  function toggleModalFour() {
+    setIsOpen4(!isOpen4);
   }
 
   return (
@@ -282,11 +286,11 @@ const BlogAnimation = () => {
                   <div className="box_inner">
                     <div className="description_wrap scrollable">
                       <div className="image">
-                        <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                        <img src="/img/portfolio/birdseye-header.png" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: `url(${process.env.PUBLIC_URL + "img/news/3.jpg"
+                            backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/birdseye-header.png"
                               })`,
                           }}
                         ></div>
@@ -307,47 +311,26 @@ const BlogAnimation = () => {
                           <p>
                           BirdsAI Marketing™ takes the guesswork out of digital advertising to help your business save money, grow revenue and reach your target audience.
                           </p>
-                          <p>
-                            Streets empty that are usually busy are remarkable
-                            and can evoke the sense of historical pictures from
-                            before the invention of the motorcar. Other things
-                            that are different at the moment will be queues to
-                            get into stores and the lines marked out on the
-                            floor to show how far apart we should be.
-                          </p>
                           <div className="quotebox">
                             <p>
-                              Most photographers find it hard to see interesting
-                              pictures in places in which they are most
-                              familiar. A trip somewhere new seems always
-                              exactly what our photography needed, as shooting
-                              away from home consistently inspires us to new
-                              artistic heights.
+                              Tech Stack
                             </p>
                           </div>
                           <p>
-                            Pretend everything is new and that you haven’t seen
-                            it before, and then you will be free to notice the
-                            leading lines, the places where one edge meets
-                            another in delightful geometric harmony, and how the
-                            ordinary things in the kitchen are transformed when
-                            the light is on or off.
+                          JavaScript, React JS, HTML5, CSS3, SASS, Node JS
                           </p>
                           <p>
-                            The trick here is to look slowly, and then look
-                            again. Take the time to look in detail and to look
-                            at the same thing from different angles, with
-                            different light, long lenses and wide lenses. Then
-                            move to the left a bit. You may never feel the need
-                            to leave the house again.
+                          ChartJS, MaterialUI, Figma, React Boostrap
                           </p>
+                          <div className="quotebox">
+                            <p>
+                              Some Screenshots
+                            </p>
+                          </div>
+                          <img src="/img/portfolio/birdseye-dashboard.png" alt="dashborad"/>
+                          <img src="/img/portfolio/birdseye-platform.png" alt="platform"/>
                         </div>
                         {/* END DESCRIPTION */}
-                        <div className="news_share">
-                          <span>Share:</span>
-                          <Social />
-                          {/* END SOCIAL SHARE */}
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -357,6 +340,103 @@ const BlogAnimation = () => {
             {/* END LIST INNER */}
           </li>
           {/* End single blog */}
+
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="300"
+          >
+            <div className="list_inner">
+              <div className="image" onClick={toggleModalFour}>
+                <img src="/img/portfolio/whoop-landing.png" alt="thumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/whoop-landing.png"
+                      })`,
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+
+              <div className="details">
+                <span>
+                  Jan, 2022 <a href="#">WHOOP Industry Hackthon Winning Project</a>
+                </span>
+                <h3 className="title" onClick={toggleModalFour}>
+                  Whoop Challenges
+                </h3>
+              </div>
+              {/* End details */}
+
+              {/* Start Modal */}
+              <Modal
+                isOpen={isOpen4}
+                onRequestClose={toggleModalFour}
+                contentLabel="My dialog"
+                className="custom-modal"
+                overlayClassName="custom-overlay"
+                closeTimeoutMS={500}
+              >
+                <div className="beny_tm_modalbox_news">
+                  <button className="close-modal" onClick={toggleModalFour}>
+                    <img src="/img/svg/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* END CLOSE MODAL */}
+                  <div className="box_inner">
+                    <div className="description_wrap scrollable">
+                      <div className="image">
+                        <img src="/img/portfolio/whoop-header.png" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: `url(${process.env.PUBLIC_URL + "img/portfolio/whoop-header.png"
+                              })`,
+                          }}
+                        ></div>
+                      </div>
+                      {/* END IMAGE */}
+                      <div className="details">
+                        <span>
+                         Jan, 2022 <a href="#">WHOOP Industry Hackthon Winning Project</a>
+                        </span>
+                        <h3 className="title">Whoop Challenges</h3>
+                      </div>
+                      {/* End details */}
+                      <div className="main_content">
+                        <div className="descriptions">
+                          <p className="bigger">
+                           In this WHOOP Industry Hackathon, we were tasked with providing additional functionality to the Whoop Fitness App in 24h.  
+                          </p>
+                          <p>
+                          Our team chose to make a challenge tracker that gave suggested challenges based off the user's current fitness level. Users would be able to log daily fitness challenges and filter workouts by muscle group. Additionally, we also integrated our APP into Whoop's already robust community page by allowing users to create and add challenges to groups they were already part of. 
+                          </p>
+                          <div className="quotebox">
+                            <p>
+                              Tech Stack
+                            </p>
+                          </div>
+                          <p>
+                          JavaScript, React JS, HTML5, CSS3, SASS, Node JS, Express JS, ChartJS
+                          </p>
+                          <div className="quotebox">
+                            <p>
+                              Some Screenshots
+                            </p>
+                          </div>
+                          <img src="/img/portfolio/whoop-0.png" alt="landing"/>
+                          <img src="/img/portfolio/whoop-1.png" alt="dashborad"/>
+                          <img src="/img/portfolio/whoop-2.png" alt="platform"/>
+                        </div>
+                        {/* END DESCRIPTION */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Modal>
+            </div>
+            {/* END LIST INNER */}
+          </li>
         </ul>
       </div>
     </>

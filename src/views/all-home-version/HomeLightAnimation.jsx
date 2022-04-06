@@ -64,6 +64,19 @@ const HomeLightAnimation = () => {
       </div>
       {/* /SERVICES */}
 
+      {/* NEWS */}
+      <div className="beny_tm_news" id="news">
+        <div className="container">
+          <div className="beny_tm_title_holder">
+            <span>Portfolio</span>
+            <h2>My Portfolio</h2>
+          </div>
+          {/* End beny_tm_title */}
+          <Blog />
+        </div>
+      </div>
+      {/* /NEWS */}
+
       {/* PORTFOLIO */}
       {/* <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
@@ -105,18 +118,6 @@ const HomeLightAnimation = () => {
       </div> */}
       {/* /TESTIMONIALS */}
 
-      {/* NEWS */}
-      <div className="beny_tm_news" id="news">
-        <div className="container">
-          <div className="beny_tm_title_holder">
-            <span>Portfolio</span>
-            <h2>My Portfolio</h2>
-          </div>
-          {/* End beny_tm_title */}
-          <Blog />
-        </div>
-      </div>
-      {/* /NEWS */}
 
       {/*  CONTACT */}
       <div className="beny_tm_contact" id="contact">
