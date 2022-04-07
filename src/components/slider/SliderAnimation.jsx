@@ -70,7 +70,7 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <a className="anchor" href="#about">
+              <a className="anchor" href="#news">
                 <span className="wrapper">
                   <span className="first">See Portfolio</span>
                   <span className="second">See Portfolio</span>

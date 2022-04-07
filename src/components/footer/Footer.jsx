@@ -12,7 +12,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              Gloria Kuang
             </a>
             . All rights reserved.
           </p>

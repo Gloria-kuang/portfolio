@@ -77,11 +77,10 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  {/* download resume */}
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular"> 
+                  <a href="img/about/Gloria-Kuang-CV.webp" download> 
                     <span className="wrapper">
-                      <span className="first">Download Resume</span>
-                      <span className="second">Download Resume</span>
+                      <span className="first">Download CV</span>
+                      <span className="second">Download CV</span>
                     </span>
                   </a>
                 </li>

@@ -15,7 +15,7 @@ const HomeLightAnimation = () => {
   document.body.classList.add("light");
   return (
     <div className="home-light">
-      <div
+      {/* <div
         className="demo-fixed-wrapper"
         data-aos="fade-left"
         data-aos-duration="1200"
@@ -26,7 +26,7 @@ const HomeLightAnimation = () => {
             <span className="text">Demos</span>
           </Link>
         </button>
-      </div>
+      </div> */}
       {/* demo show wrapper  */}
 
       <Header />
@@ -130,7 +130,7 @@ const HomeLightAnimation = () => {
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
-                <h2>Let's discuss your project</h2>
+                <h2>Let's have a chat!</h2>
               </div>
               <div className="short_list">
                 <Address />
@@ -146,9 +146,9 @@ const HomeLightAnimation = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  I'm always open to discussing 
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span>potential work opportunities.</span>
                 </p>
               </div>
               <div className="fields">
