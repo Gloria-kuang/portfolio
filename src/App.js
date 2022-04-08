@@ -17,7 +17,6 @@ const App = () => {
     measurementId: "G-5KR930K1YT"
   };
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
 
   useEffect(() => {
     AOS.init();

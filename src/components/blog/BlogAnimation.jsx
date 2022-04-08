@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Social from "../Social";
 
 Modal.setAppElement("#root");
 
@@ -43,7 +42,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  Jan 2022<a href="#">Pet Finding Web App</a>
+                  Jan 2022 Pet Finding Web App
                 </span>
                 <h3 className="title" onClick={toggleModalOne}>
                   Paws Reunite
@@ -82,7 +81,7 @@ const BlogAnimation = () => {
 
                       <div className="details">
                         <span>
-                          Jan,2022 <a href="#">Brainstation Capstone Project</a>
+                          Jan,2022 Brainstation Capstone Project
                         </span>
                         <h3 className="title" onClick={toggleModalOne}>
                           Paws Reunite
@@ -126,7 +125,7 @@ const BlogAnimation = () => {
                         {/* End description */}
                         <div className="news_share ">
                           <span>Link:</span>
-                          <a href="https://paws-reunite.web.app/" target="_blank">https://paws-reunite.web.app/</a>
+                          <a href="https://paws-reunite.web.app/" target="_blank" rel="noreferrer">https://paws-reunite.web.app/</a>
                         </div>
                         {/* End news share */}
                       </div>
@@ -161,7 +160,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  Feb,2022 <a href="#">Birdseye AI Marketing</a>
+                  Feb,2022 Birdseye AI Marketing
                 </span>
                 <h3 className="title" onClick={toggleModalTwo}>
                   Birdseye Global Website
@@ -198,7 +197,7 @@ const BlogAnimation = () => {
 
                       <div className="details">
                         <span>
-                          Feb,2022 <a href="#">Birdseye Global</a>
+                          Feb,2022 Birdseye Global
                         </span>
                         <h3 className="title">Birdseye AI Marketing Website</h3>
                       </div>
@@ -226,7 +225,7 @@ const BlogAnimation = () => {
                         {/* End description */}
                         <div className="news_share">
                           <span>Link:</span>
-                          <a href="https://birdseyeglobal.com/" target="_blank">https://birdseyeglobal.com/</a>
+                          <a href="https://birdseyeglobal.com/" target="_blank" rel="noreferrer">https://birdseyeglobal.com/</a>
                         </div>
 
                         {/* End news share */}
@@ -261,7 +260,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  March, 2022 <a href="#">Birdseye Global</a>
+                  March, 2022 Birdseye Global
                 </span>
                 <h3 className="title" onClick={toggleModalThree}>
                   Birdseye AI Marketing Web App
@@ -298,7 +297,7 @@ const BlogAnimation = () => {
                       {/* END IMAGE */}
                       <div className="details">
                         <span>
-                         March, 2022 <a href="#">Birdseye Global</a>
+                         March, 2022 Birdseye Global
                         </span>
                         <h3 className="title">BirdsAI Marketing™ Web App</h3>
                       </div>
@@ -361,7 +360,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  Jan, 2022 <a href="#">WHOOP Industry Hackthon Winning Project</a>
+                  Jan, 2022 WHOOP Industry Hackthon Winning Project
                 </span>
                 <h3 className="title" onClick={toggleModalFour}>
                   Whoop Challenges
@@ -398,7 +397,7 @@ const BlogAnimation = () => {
                       {/* END IMAGE */}
                       <div className="details">
                         <span>
-                         Jan, 2022 <a href="#">WHOOP Industry Hackthon Winning Project</a>
+                         Jan, 2022 WHOOP Industry Hackthon Winning Project
                         </span>
                         <h3 className="title">Whoop Challenges</h3>
                       </div>
@@ -458,7 +457,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  Dec, 2021 <a href="#">Brainstation Hackathon Project</a>
+                  Dec, 2021 Brainstation Hackathon Project
                 </span>
                 <h3 className="title" onClick={toggleModalFour}>
                   Marvel Guess Who Game
@@ -495,7 +494,7 @@ const BlogAnimation = () => {
                       {/* END IMAGE */}
                       <div className="details">
                         <span>
-                         Dec, 2021 <a href="#">Brainstation Hackathon Project</a>
+                         Dec, 2021 Brainstation Hackathon Project
                         </span>
                         <h3 className="title">Marvel Guess Who Game</h3>
                       </div>
@@ -551,7 +550,7 @@ const BlogAnimation = () => {
 
               <div className="details">
                 <span>
-                  Dec, 2021 <a href="#">Brainstation Holiday Theme Project</a>
+                  Dec, 2021 Brainstation Holiday Theme Project
                 </span>
                 <h3 className="title" onClick={toggleModalFour}>
                   Holiday Fest
@@ -588,7 +587,7 @@ const BlogAnimation = () => {
                       {/* END IMAGE */}
                       <div className="details">
                         <span>
-                         Dec, 2021 <a href="#">Brainstation Holiday Theme Project</a>
+                         Dec, 2021 Brainstation Holiday Theme Project
                         </span>
                         <h3 className="title">Holiday Fest - Online Dinner Menu Generator</h3>
                       </div>
