@@ -8,6 +8,8 @@ const BlogAnimation = () => {
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
+  const [isOpen6, setIsOpen6] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -20,6 +22,13 @@ const BlogAnimation = () => {
   }
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
+  }
+
+  function toggleModalFive() {
+    setIsOpen5(!isOpen5);
+  }
+  function toggleModalSix() {
+    setIsOpen6(!isOpen6);
   }
 
   return (
@@ -443,7 +452,7 @@ const BlogAnimation = () => {
             data-aos-delay="300"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalFour}>
+              <div className="image" onClick={toggleModalFive}>
                 <img src="/img/portfolio/marvel.png" alt="thumb" />
                 <div
                   className="main"
@@ -459,7 +468,7 @@ const BlogAnimation = () => {
                 <span>
                   Dec, 2021 Brainstation Hackathon Project
                 </span>
-                <h3 className="title" onClick={toggleModalFour}>
+                <h3 className="title" onClick={toggleModalFive}>
                   Marvel Guess Who Game
                 </h3>
               </div>
@@ -467,15 +476,15 @@ const BlogAnimation = () => {
 
               {/* Start Modal */}
               <Modal
-                isOpen={isOpen4}
-                onRequestClose={toggleModalFour}
+                isOpen={isOpen5}
+                onRequestClose={toggleModalFive}
                 contentLabel="My dialog"
                 className="custom-modal"
                 overlayClassName="custom-overlay"
                 closeTimeoutMS={500}
               >
                 <div className="beny_tm_modalbox_news">
-                  <button className="close-modal" onClick={toggleModalFour}>
+                  <button className="close-modal" onClick={toggleModalFive}>
                     <img src="/img/svg/cancel.svg" alt="close icon" />
                   </button>
                   {/* END CLOSE MODAL */}
@@ -536,7 +545,7 @@ const BlogAnimation = () => {
             data-aos-delay="300"
           >
             <div className="list_inner">
-              <div className="image" onClick={toggleModalFour}>
+              <div className="image" onClick={toggleModalSix}>
                 <img src="/img/portfolio/menu.png" alt="thumb" />
                 <div
                   className="main"
@@ -552,7 +561,7 @@ const BlogAnimation = () => {
                 <span>
                   Dec, 2021 Brainstation Holiday Theme Project
                 </span>
-                <h3 className="title" onClick={toggleModalFour}>
+                <h3 className="title" onClick={toggleModalSix}>
                   Holiday Fest
                 </h3>
               </div>
@@ -560,15 +569,15 @@ const BlogAnimation = () => {
 
               {/* Start Modal */}
               <Modal
-                isOpen={isOpen4}
-                onRequestClose={toggleModalFour}
+                isOpen={isOpen6}
+                onRequestClose={toggleModalSix}
                 contentLabel="My dialog"
                 className="custom-modal"
                 overlayClassName="custom-overlay"
                 closeTimeoutMS={500}
               >
                 <div className="beny_tm_modalbox_news">
-                  <button className="close-modal" onClick={toggleModalFour}>
+                  <button className="close-modal" onClick={toggleModalSix}>
                     <img src="/img/svg/cancel.svg" alt="close icon" />
                   </button>
                   {/* END CLOSE MODAL */}
